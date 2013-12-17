@@ -1,0 +1,9 @@
+MSYS-1.0.12 Build:2011-07-20 17:52
+Exception: STATUS_ACCESS_VIOLATION at eip=6805004F
+eax=000002DC ebx=00000000 ecx=75DDF344 edx=0068016C esi=0022FC9C edi=0022F89C
+ebp=65657020 esp=0022F714 program=C:\RailsInstaller\Git\bin\sh.exe
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+ 147080 [main] sh 4008 handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+ 168509 [main] sh 4008 handle_exceptions: Error while dumping state (probably corrupted stack)
